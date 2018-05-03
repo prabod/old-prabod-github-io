@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Prabod Rathnayaka</title>
-    <link>http://prabod.rathnayaka.me/posts/</link>
+    <link>https://prabod.rathnayaka.me/posts/</link>
     <description>Recent content in Posts on Prabod Rathnayaka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Feb 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://prabod.rathnayaka.me/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://prabod.rathnayaka.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Graph Theory Push Relabel</title>
-      <link>http://prabod.rathnayaka.me/posts/graph-theory-push-relabel/</link>
+      <link>https://prabod.rathnayaka.me/posts/graph-theory-push-relabel/</link>
       <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://prabod.rathnayaka.me/posts/graph-theory-push-relabel/</guid>
+      <guid>https://prabod.rathnayaka.me/posts/graph-theory-push-relabel/</guid>
       <description>Push-Relabel Algorithm for Maximum Flow Problem Introduction When a Graph Represent a Flow Network where every edge has a capacity. Also given that two vertices, source &amp;rsquo;s&amp;rsquo; and sink &amp;rsquo;t&amp;rsquo; in the graph, we can find the maximum possible flow from s to t with having following constraints:
  Flow on an edge doesn&amp;rsquo;t exceed the given edge capacity Incoming flow is equal to Outgoing flow for every vertex excluding sink and source  Algorithm * Input: network (G = (V, E), s, t, c) * h[s] := |V | * for each v ∈ V − {s} do h[v] := 0 * for each (s, v) ∈ E do f(s, v) := c(s, v) * while f is not a feasible flow * let c&#39;(u, v) = c(u, v) + f(u, v) − f(v, u) be the capacities of the residual network * if there is a vertex v ∈ V − {s, t} and a vertex w ∈ V such that ef (v) &amp;gt; 0, h(v) &amp;gt; h(w), and c&#39;(v, w) &amp;gt; 0 then ∗ push min{c&#39;(v, w), ef (v)} units of flow on the edge (v, w) * else, let v be a vertex such that ef (v) &amp;gt; 0, and set h[v] := h[v] + 1 * output f  Example Consider the following graph</description>
     </item>
